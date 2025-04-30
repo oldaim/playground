@@ -1,0 +1,6 @@
+package composition
+
+interface MediaStreamingPlayer{
+
+}
+
