@@ -1,4 +1,4 @@
-package org.oldaim
+package collection
 
 import java.util.Collections
 import java.util.HashMap

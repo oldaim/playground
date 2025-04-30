@@ -1,15 +1,13 @@
-package org.oldaim
+package thread
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.yield
 import java.util.concurrent.CompletableFuture
 import java.util.concurrent.Executors
 import java.util.concurrent.ForkJoinPool
-import java.util.concurrent.TimeUnit
 import kotlin.math.cos
 import kotlin.math.sin
 import kotlin.system.measureTimeMillis
