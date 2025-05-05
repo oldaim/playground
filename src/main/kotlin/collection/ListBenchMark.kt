@@ -1,6 +1,6 @@
 package collection
 
-import java.util.LinkedList
+import java.util.*
 import java.util.stream.IntStream
 import kotlin.streams.toList
 import kotlin.system.measureNanoTime

@@ -1,4 +1,4 @@
-package composition
+package composition.media
 
 class MediaStreamingPlayerImpl(
     private val mediaType: MediaType,

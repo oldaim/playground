@@ -1,5 +1,8 @@
 package composition
 
+import composition.data.App
+import composition.media.*
+
 class Main
 
 fun main(args: Array<String>) {
@@ -18,4 +21,14 @@ fun main(args: Array<String>) {
 
     firstMediaStreamingPlayer.playMedia()
     secondMediaStreamingPlayer.playMedia()
+
+    val app = App()
+
+    println(app.db)
+
+    app.start()
+
+    println(app.db)
+
+    app.fetchData()
 }

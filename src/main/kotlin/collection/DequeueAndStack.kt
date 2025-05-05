@@ -2,6 +2,8 @@ package collection
 
 import java.util.Stack
 import java.util.stream.IntStream
+import kotlin.collections.ArrayDeque
+import kotlin.collections.forEach
 
 class DequeueAndStack {
 
