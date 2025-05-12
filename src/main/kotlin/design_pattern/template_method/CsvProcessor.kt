@@ -1,5 +1,7 @@
 package design_pattern.template_method
 
+import java.util.Deque
+
 abstract class CsvProcessor {
 
     fun process() {
@@ -31,5 +33,9 @@ class FileCsvProcessor: CsvProcessor() {
         println(" file process data: $data")
         return "some data"
     }
+
+}
+
+fun main() {
 
 }
